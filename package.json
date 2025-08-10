@@ -1,0 +1,34 @@
+{
+  "name": "codequill",
+  "version": "1.0.0",
+  "description": "A lightning-fast CLI tool to bundle all your git-tracked project files into a single, context-rich text file for seamless interaction with Large Language Models.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "codequill": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [
+    "cli",
+    "llm",
+    "ai",
+    "prompt-engineering",
+    "context",
+    "git"
+  ],
+  "author": "Hans-L-Max",
+  "license": "MIT",
+  "dependencies": {
+    "@jest/globals": "^30.0.5",
+    "commander": "^12.1.0",
+    "minimatch": "^9.0.4",
+    "ora": "^8.0.1",
+    "picocolors": "^1.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
