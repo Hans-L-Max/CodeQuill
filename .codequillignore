@@ -6,6 +6,7 @@
 LICENSE
 README.md
 .gitignore
+.codequillignore
 package-lock.json
 yarn.lock
 
